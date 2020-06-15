@@ -1,5 +1,28 @@
 /* add css module styles here (optional) */
 
+html {
+    height: 100%;
+    background-color: black;
+}
+
+.clock-body {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10em;
+    position: relative;
+}
+
+.seconds {
+    height: 45%;
+    border: black solid 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 .test {
   margin: 2em;
   padding: 0.5em;
